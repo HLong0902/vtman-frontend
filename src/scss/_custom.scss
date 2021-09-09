@@ -1,0 +1,54 @@
+// Here you can add other styles
+a{
+  color: #ff4d4f;
+}
+
+.c-sidebar.c-sidebar-dark.c-sidebar-lg-show.c-sidebar-fixed {
+  z-index: 1061;
+}
+.c-sidebar.c-sidebar-dark.c-sidebar-show.c-sidebar-fixed {
+  z-index: 1061;
+}
+.modal.overflow-auto.fade.show.d-block {
+   z-index: 110000;
+}
+@media only screen and (max-width: 2000px) and (min-width: 992px){
+  .large{
+      display: none;
+  }
+}
+
+div.table-data table {
+  width: 100%;
+  table-layout: fixed !important;
+}
+
+div.table-data table td{
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+div.table-data table td.remove-word-break{
+  vertical-align: top;
+  word-wrap: normal;
+}
+
+div.question-table table table{
+  border-collapse: collapse;
+}
+
+div.question-table table table td {
+  border: 1px solid #ddd;
+}
+
+div.question-table table table th {
+  border: 1px solid #ddd;
+}
+
+.ant-notification.ant-notification-bottomRight{
+  z-index: 150000 !important;
+}
+
+button.ant-pagination-item-link span.anticon {
+  vertical-align: 0.09em;
+}

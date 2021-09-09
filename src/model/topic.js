@@ -1,0 +1,29 @@
+export default class Topic {
+  constructor({
+    TOPIC_ID,
+    TOPIC_NAME,
+    DEPARTMENT_ID,
+    ANSWER_EMPLOYEE_ID,
+    NUMBER_ORDER,
+    DESCRIPTION,
+    IS_ACTIVE,
+    CREATED_DATE,
+    CREATED_BY,
+    UPDATED_DATE,
+    UPDATED_BY,
+    STATUS,
+  }) {
+    this.TOPIC_ID = TOPIC_ID;
+    this.TOPIC_NAME = TOPIC_NAME;
+    this.DEPARTMENT_ID = DEPARTMENT_ID;
+    this.ANSWER_EMPLOYEE_ID = ANSWER_EMPLOYEE_ID;
+    this.NUMBER_ORDER = NUMBER_ORDER;
+    this.DESCRIPTION = DESCRIPTION;
+    this.IS_ACTIVE = IS_ACTIVE;
+    this.CREATED_DATE = CREATED_DATE;
+    this.CREATED_BY = CREATED_BY;
+    this.UPDATED_DATE = UPDATED_DATE;
+    this.UPDATED_BY = UPDATED_BY;
+    this.STATUS = STATUS;
+  }
+}

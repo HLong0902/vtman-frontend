@@ -1,0 +1,129 @@
+@import '~antd/dist/antd.less';
+
+.list_notification > button {
+  background: transparent;
+  border: none;
+}
+.list_notification > button > span {
+  top: -7px !important;
+  font-size: 70%;
+}
+
+.list_notification > button:after {
+  content: "";
+  color: red;
+  border: none;
+}
+.list_notification.show.dropdown .dropdown-toggle {
+  background: transparent;
+  border: none;
+}
+.list_notification > button.btn-primary:focus {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.list_notification > button.dropdown-toggle:focus {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.list_notification > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.list_notification .btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.list_notification .btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.list_notification .btn-primary:hover {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.list_notification .notification_body {
+  display: flex;
+}
+
+.list_notification div.user_img {
+  margin-right: 10px;
+}
+
+.list_notification div.user_img img {
+  width: 32px;
+}
+
+.list_notification .notification_item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  white-space: initial;
+}
+
+.list_notification .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list_notification div.read_detail {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.list_notification div.dropdown-menu.show {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.list_notification .dropdown-item.active,
+.dropdown-item:active {
+  background-color: #ff00001a !important;
+}
+
+.list_notification .dropdown-item:hover {
+  background-color: #ff00001a !important;
+}
+
+.list_notification a#load_more:focus {
+  background-color: white;
+}
+
+.list_notification p.content_body {
+  margin-bottom: 0px;
+}
+
+.list_notification p.content_title {
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: black;
+}
+
+.list_notification ::-webkit-scrollbar {
+  background: #fff;
+  width: 5px;
+}
+
+.list_notification ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.list_notification ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
